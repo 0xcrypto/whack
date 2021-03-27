@@ -146,6 +146,7 @@ a-supercms-for-free-user
 a-tom-starley-design-based-on-the-fantastic-wplight-theme
 a-uw-madison-theme-2015
 a-vintage-romance
+a-wp-businesspress
 a1
 a11-yall
 a11yall
@@ -1044,6 +1045,7 @@ appsense
 appsetter
 apptheme-free
 appworx
+appzend
 apricot
 apricot-blog
 apt-news
@@ -1123,6 +1125,7 @@ ari-p
 ariana
 aribiz
 ariboom
+aribull
 aricop
 aridum
 ariel
@@ -1393,6 +1396,7 @@ australia
 authenticblog
 author
 author-author
+author-blog
 author-landing-page
 authorcentric
 authoredrobertson
@@ -1586,6 +1590,7 @@ azuma
 azure-basic
 azure-minimalist-blue
 azurelo-free-version
+azurie
 azurite
 azwa
 b-a-r
@@ -2596,6 +2601,7 @@ blood-red-flower
 bloody-mary
 bloog-lite
 bloogs
+blook
 bloom-feminine
 bloomtheme
 bloomy
@@ -2973,6 +2979,7 @@ boron
 borrowed-cr
 bosa
 bosa-business
+bosa-corporate-dark
 bosco
 bose
 boshki-portfolio
@@ -3439,6 +3446,7 @@ businex-corporate
 busiplus
 busipress
 busiprof
+busiprof-agency
 busis
 busiup
 busiway
@@ -4270,6 +4278,7 @@ codium-extend
 codium-grid
 codium-light
 codium-now
+codoc
 codon
 cody
 cody-theme
@@ -4982,6 +4991,7 @@ cutewp
 cutline
 cutline-14-2-column-right
 cutline-3-column-right
+cutslice
 cuttlefish
 cutty
 cv-card
@@ -5156,6 +5166,7 @@ darklight
 darklowpress
 darkmoon
 darkmystery
+darknews
 darkone
 darkooo
 darkorange
@@ -5275,6 +5286,7 @@ deg
 deiadicaa
 dekha
 dekiru
+dektin
 delect
 deli
 delia
@@ -5450,6 +5462,7 @@ diabolique-lagoon
 diabolique-pearl
 diabolique-spring
 diabusiness-free
+diagnoseo
 dialogue
 diama
 diamond
@@ -7652,6 +7665,7 @@ garajez-lite
 garajez-lite-version
 garden
 garden-blog-template
+garden-care
 garden-harvest
 gardener
 gardenia
@@ -8117,6 +8131,7 @@ greendays
 greendev
 greendreams
 greener-side
+greenery-lite
 greenfy
 greenhouse
 greenicy
@@ -8318,6 +8333,7 @@ guten-learn
 gutenbee
 gutenberg
 gutenbiz
+gutenbiz-dark
 gutenbiz-light
 gutenbiz-mag
 gutenblog
@@ -9518,6 +9534,7 @@ jason-news-lite
 jasov
 jasper-ads
 jaspers-theme
+jass
 jatri
 javes
 javtheme
@@ -11417,6 +11434,7 @@ megapress
 megaresponsive-lite
 megart
 megastar
+megaz
 megazine
 megnu-dustydisks
 megnu-ubuntu
@@ -11954,6 +11972,7 @@ modern-remix
 modern-store
 modern-storytelling
 modern-style
+modern-thematic
 modern-theme
 modern-vintage
 modern-ways
@@ -11991,6 +12010,7 @@ moher-phototheme
 mohini
 moi-magazine
 moiety
+moina
 mojix
 mojo-mobile
 mokime
@@ -12322,6 +12342,7 @@ my-purple-retro-party-theme-de
 my-restro
 my-resume
 my-salon
+my-secret-memory
 my-simply-blue-theme
 my-solid-grid
 my-starcraft-2
@@ -12847,6 +12868,7 @@ newstore
 newstorial
 newsup
 newsverse
+newsvida
 newswords
 newsworthy
 newsx
@@ -13268,6 +13290,7 @@ ogbbblog_11
 ogee
 oginer
 oh
+oh-my-blog
 ohands
 ohsik
 ok-computer
@@ -14023,6 +14046,7 @@ personalblog
 personalblogily
 personalia
 personalio
+personalistio-blog
 personality
 personaller
 personaltrainer
@@ -14369,6 +14393,7 @@ plaza
 pleasant-lite
 pleased
 plied
+pliska
 plug-shop
 plum
 plumbelt-lite
@@ -14418,6 +14443,7 @@ polestar
 polimedapaca
 polished-plum
 polite
+polite-blog
 polite-grid
 political
 political-era
@@ -14435,6 +14461,7 @@ polymer
 pomton
 pomton-wp
 pongal-red
+pontus-wp
 pony-project
 pool
 pool-drinks
@@ -16411,6 +16438,7 @@ shophistic-lite-butik
 shopical
 shopisla
 shopisle
+shopix
 shopiyo
 shopline
 shopone
@@ -17954,6 +17982,7 @@ superslick
 supersport
 superstore
 supertheme
+superthemes
 supesu
 suporte-eduardo
 supplier
@@ -20283,6 +20312,8 @@ websiteright
 websitesetup-business
 websitez-mobile-theme
 websopp
+websopp-grocery
+websopp-one
 webstarslite
 webstarterkitthirteen
 webstore
@@ -21106,6 +21137,7 @@ xpinkfevertlx
 xpressmag
 xpro
 xproweb
+xq-wptheme-dsijakxq
 xseason
 xshop
 xsimply

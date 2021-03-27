@@ -8,4 +8,4 @@ wordpress:
 	curl https://themes.svn.wordpress.org/ --silent | grep -o -E 'href="([^"#]+)"' | cut -d'"' -f2 | cut -d'/' -f1 > wordpress-themes.txt
 
 domain:
-	curl -OJ https://data.iana.org/TLD/tlds-alpha-by-domain.txt
+	curl https://data.iana.org/TLD/tlds-alpha-by-domain.txt --silent | sed -e 's/\(.*\)/\L\1/' > tlds-alpha-by-domain.txt
