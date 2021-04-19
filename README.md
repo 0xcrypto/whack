@@ -13,7 +13,7 @@ git clone && cd whack && make
 or just download the makefile and use it to generate the wordlist:
 
 ```bash
-mkdir -p whack && curl -sL "https://github.com/0xcrypto/whack/blob/main/Makefile?raw=true" -O whack/Makefile; cd whack && make
+mkdir -p whack && curl -sL "https://github.com/0xcrypto/whack/blob/main/Makefile?raw=true" --output whack/Makefile; cd whack && make
 ```
 
 ## Updating
