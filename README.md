@@ -7,7 +7,7 @@ The `.txt` files in this repo are automagically generated wordlists. You can use
 To generate/keep all wordlists, You can either git clone the repo which also gives my already fetched wordlists:
 
 ```bash
-git clone && cd whack && make
+git clone https://github.com/0xcrypto/whack && cd whack && make
 ```
 
 or just download the makefile and use it to generate the wordlist:
