@@ -39,7 +39,8 @@ jobs:
       - name: Convert README.md to index.html
         run: |
           mkdir -p static
-          pandoc README.md -o static/index.html
+          wget https://raw.githubusercontent.com/markdowncss/splendor/master/css/splendor.min.css
+          pandoc --css=splendor.min.css --metadata pagetitle="whack - Automagically Generated Wordlists | eval.blog" --to=html5 README.md -o static/index.html
       - name: Setup Pages
         uses: actions/configure-pages@v3
       - name: Upload artifact
