@@ -3,6 +3,7 @@ name: Weekly Release
 on:
   schedule:
     - cron: "0 0 * * 0" # Schedule to run every Sunday at midnight (UTC)
+  workflow_dispatch:
 
 jobs:
   build:
