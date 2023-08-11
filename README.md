@@ -29,12 +29,12 @@ make wordlists          # Downloads Seclist, payload all the things, xajkep's wo
 make wordpress          # Downloads wordpress plugins and themes wordlists from codex
 make php                # Downloads packages list from packagist (composer)
 make domain             # Downloads TLD lists from iana.org
-make seclist            # Downloads seclist
-make payloads           # Downloads payloads
-make xajkep             # Downloads xajkep
-make bo0om_fuzz         # Downloads bo0om_fuzz
-make rockyou            # Downloads rockyou
-make 0xcrypto           # Downloads 0xcrypto
+make seclist            # Downloads seclists
+make payloads           # Downloads payload all the things
+make xajkep             # Downloads xajkep's wordlists
+make bo0om_fuzz         # Downloads bo0om_fuzz.txt
+make rockyou            # Downloads rockyou.txt
+make 0xcrypto           # Downloads 0xcrypto's wordlists
 ```
 > Note that package repositories periodically removes old and obsolete packages so newly generated wordlists might not have these removed packages.
 
