@@ -28,7 +28,7 @@ jobs:
         with:
           repo_token: ${{ secrets.GITHUB_TOKEN }}
           file: wordlists.zip
-          asset_name: Wordlists ZIP Archive
-          tag: ${{ github.ref }}
+          asset_name: wordlists.zip
+          tag: ${{ env.RELEASE_DATE }}
           overwrite: true
-          body: "Wordlists archived on ${{ env.RELEASE_DATE }}."  
+          body: "Wordlists archived on ${{ env.RELEASE_DATE }}. Sponsor at https://eval.blog/sponsor"  
