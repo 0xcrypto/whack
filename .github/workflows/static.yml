@@ -40,9 +40,7 @@ jobs:
         run: |
           mkdir -p static
           wget  -c https://raw.githubusercontent.com/markdowncss/splendor/master/css/splendor.min.css -O static/style.min.css
-          ls -al
-          ls -al static
-          pandoc --css=./static/style.min.css css -s -f markdown+smart --toc --metadata pagetitle="whack - Automagically Generated Wordlists | eval.blog" --to=html5 README.md -o static/index.html
+          pandoc --css=./static/style.min.css -s -f markdown+smart --toc --metadata pagetitle="whack - Automagically Generated Wordlists | eval.blog" --to=html5 README.md -o static/index.html
       - name: Setup Pages
         uses: actions/configure-pages@v3
       - name: Upload artifact
