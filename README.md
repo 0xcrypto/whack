@@ -18,7 +18,7 @@ https://github.com/0xcrypto/whack/releases/download/2023-08-11/wordlists.zip && 
 ```
 
 ## Updating
-To update, you can either delete the old downloaded files or simply run make:
+To update, you can either delete the old downloaded files and install new one, or simply run make as per your needs:
 
 ```
 # Groups
@@ -36,6 +36,7 @@ make bo0om_fuzz         # Downloads bo0om_fuzz
 make rockyou            # Downloads rockyou
 make 0xcrypto           # Downloads 0xcrypto
 ```
+> Note that package repositories periodically removes old and obsolete packages so newly generated wordlists might not have these removed packages.
 
 ## Contributing
 Raise issues to have your wordlists included.
