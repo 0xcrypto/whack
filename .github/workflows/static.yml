@@ -31,13 +31,22 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v3
+      - name: Install pandoc
+        run: |
+          sudo apt-get update
+          sudo apt-get -y install pandoc
+
+      - name: Convert README.md to index.html
+        run: |
+          pandoc README.md -o index.html
+          echo "README.md converted to index.html"
       - name: Setup Pages
         uses: actions/configure-pages@v3
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v2
         with:
           # Upload entire repository
-          path: '.'
+          path: 'index.html'
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v2
