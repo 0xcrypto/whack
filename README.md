@@ -1,5 +1,4 @@
-![What is whack?](https://github.com/0xcrypto/whack/assets/6683856/4a6f077b-2dfb-467e-9ab3-8d20a8d036a2 "What is whack?")
-
+## `whack`
 Whack is a small makefile to scrape wordlists from package managers, plugin databases and other known sources.
 
 ## Installing
