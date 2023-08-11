@@ -3,32 +3,43 @@
 Whack is a small makefile to scrape wordlists from package managers, plugin databases and other known sources.
 
 ## Installing
-The `.txt` files in this repo are automagically generated wordlists. You can use any specific wordlist by downloading it.
-To generate/keep all wordlists, You can either git clone the repo which also gives my already fetched wordlists:
+Wordlists are released weekly using GitHub action that runs `make all` to fetch and zip the wordlists. Github action runs
+every sunday 00:00 AM (UTC). To install latest wordlists:
 
-```bash
-git clone https://github.com/0xcrypto/whack && cd whack && make
+```
+wget https://github.com/0xcrypto/whack/releases/latest/download/wordlists.zip && unzip wordlists.zip -d wordlists && rm wordlists.zip
 ```
 
-or just download the makefile and use it to generate the wordlist:
+To install older versions:
 
-```bash
-mkdir -p whack && curl -sL "https://github.com/0xcrypto/whack/blob/main/Makefile?raw=true" --output whack/Makefile; cd whack && make
+```
+# Replace 2023-08-11 with the release date. Each release is on sunday except the manual releases.
+# See https://github.com/0xcrypto/whack/releases/
+https://github.com/0xcrypto/whack/releases/download/2023-08-11/wordlists.zip && unzip wordlists.zip -d wordlists && rm wordlists.zip
 ```
 
 ## Updating
-Available `.txt` files in the repository are not always the latest. So it makes sense to keep updating the wordlists and generating on your own end.
-Updating is quite easy ie. redownload the makefile and `make` again.
+To update, you can either delete the old downloaded files or simply run make:
 
-If you have cloned the git repository, you might wanna reset your local changes:
+```
+# Groups
+make all                   # Same as make, downloads new files and replaces existing ones. 
+make wordlists          # Downloads Seclist, payload all the things, xajkep's wordlists, bo0om Fuzz.txt and rockyou.txt and wordlists I use.
 
-```bash
-git reset --hard && git pull && make
+# Specific Targets
+make wordpress          # Downloads wordpress plugins and themes wordlists from codex
+make php                # Downloads packages list from packagist (composer)
+make domain             # Downloads TLD lists from iana.org
+make seclist            # Downloads seclist
+make payloads           # Downloads payloads
+make xajkep             # Downloads xajkep
+make bo0om_fuzz         # Downloads bo0om_fuzz
+make rockyou            # Downloads rockyou
+make 0xcrypto           # Downloads 0xcrypto
 ```
 
 ## Contributing
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+Raise issues to have your wordlists included.
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
-
