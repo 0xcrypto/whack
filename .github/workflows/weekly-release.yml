@@ -17,7 +17,7 @@ jobs:
         run: |
           # Replace this with the command to run your Makefile script
           make all
-          zip -r wordlists.zip .
+          zip -r wordlists.zip . -x .*
 
       - name: Set release date
         id: set_release_date
