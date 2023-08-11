@@ -16,20 +16,19 @@ jobs:
       - name: Build and run Makefile
         run: |
           # Replace this with the command to run your Makefile script
-          make
+          make all
+          zip -r wordlists.zip .
 
       - name: Set release date
         id: set_release_date
         run: echo "RELEASE_DATE=$(date +'%Y-%m-%d')" >> $GITHUB_ENV
 
-      - name: Create Release
-        id: create_release
-        uses: actions/create-release@v1
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # Required to create releases
+      - name: Upload wordlists to release
+        uses: svenstaro/upload-release-action@v2
         with:
-          tag_name: ${{ env.RELEASE_DATE }} # Use the current date as the tag
-          release_name: "Release ${{ env.RELEASE_DATE }}" # Use the current date in the release name
-          draft: false
-          prerelease: false
-
+          repo_token: ${{ secrets.GITHUB_TOKEN }}
+          file: wordlists.zip
+          asset_name: Wordlists ZIP Archive
+          tag: ${{ github.ref }}
+          overwrite: true
+          body: "Wordlists archived on ${{ env.RELEASE_DATE }}."  
