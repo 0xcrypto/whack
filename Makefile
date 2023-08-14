@@ -28,4 +28,4 @@ rockyou:
 	wget -c https://github.com/zacheller/rockyou/raw/master/rockyou.txt.tar.gz -O rockyou.txt.tar.gz && tar -xzf rockyou.txt.tar.gz && rm rockyou.txt.tar.gz
 
 0xcrypto:
-	wget -c https://github.com/0xcrypto/wordlists/archive/master.zip -O 0xcrypto.zip && unzip 0xcrypto.zip && mv wordlists-main 0xcrypto
+	wget -c https://github.com/0xcrypto/wordlists/archive/master.zip -O 0xcrypto.zip && unzip 0xcrypto.zip && mv wordlists-main 0xcrypto && rm 0xcrypto.zip
