@@ -1,4 +1,4 @@
-name: Weekly Release
+name: Monthly Release
 
 on:
   schedule:
