@@ -2,7 +2,7 @@ name: Weekly Release
 
 on:
   schedule:
-    - cron: "0 0 * * 0" # Schedule to run every Sunday at midnight (UTC)
+    - cron: "0 0 1 * *" # Schedule to run first of every month at midnight (UTC)
   workflow_dispatch:
 
 jobs:
@@ -31,4 +31,4 @@ jobs:
           asset_name: wordlists.zip
           tag: ${{ env.RELEASE_DATE }}
           overwrite: true
-          body: "Wordlists archived on ${{ env.RELEASE_DATE }}. Sponsor at https://eval.blog/sponsor"  
+          body: "Wordlists archived on ${{ env.RELEASE_DATE }}."
