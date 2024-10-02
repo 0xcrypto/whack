@@ -15,7 +15,7 @@ To install older versions:
 # Replace 2023-08-11 with the release date. Each release is on 1st of every month except the manual releases. 
 # Older releases were weekly but there isn't much changes in them. See https://github.com/0xcrypto/whack/releases/
 
-https://github.com/0xcrypto/whack/releases/download/2023-08-11/wordlists.zip && unzip wordlists.zip -d wordlists && rm wordlists.zip
+wget https://github.com/0xcrypto/whack/releases/download/2023-08-11/wordlists.zip && unzip wordlists.zip -d wordlists && rm wordlists.zip
 ```
 
 ## Updating
